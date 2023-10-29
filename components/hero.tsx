@@ -1,6 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import TypewriterComponent from "typewriter-effect";
 import CirleWrapper from "./circleWrapper/circleWrapper";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+
 export default function HeroSection() {
   return (
     <div className="h-screen text-white flex flex-row p-40 w-full h-full">
@@ -40,9 +42,13 @@ export default function HeroSection() {
           <a
             href="https://github.com/VIPIN24BOHRA"
             target="_blank"
-            className="inline-block cursor-pointer mt-8 bg-gradient-to-r from-[#ff0000] to-[#440000] px-4 py-2 rounded-lg text-sm opacity-80 hover:opacity-100"
+            className="group  inline-block cursor-pointer mt-8 bg-gradient-to-r from-[#ff0000] to-[#440000] px-4 py-2 rounded-lg text-sm opacity-80 hover:opacity-100"
           >
-            Star Me On Github
+            Star Me On Github{" "}
+            <ArrowForwardIosIcon
+              fontSize="small"
+              className="group-hover:translate-x-1 transition duration-300 ease-in-out	"
+            />
           </a>
         </div>
       </div>
