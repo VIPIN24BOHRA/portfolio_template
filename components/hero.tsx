@@ -34,11 +34,12 @@ export default function HeroSection() {
               }}
             />
           </div>
-          <p className="w-[500px] tracking-wider font-thin">
-            I focus on developing user-friendly web applications that meet the
-            client's requirements, with attention to detail, scalability, and
-            performance.
+
+          <p className="py-4 text-xl font-extrabold bg-gradient-to-r from-[#FCF6BA] via-[#BF953F] to-[#AA771C] text-transparent bg-clip-text">
+            &#8220; JavaScript is the silent powerhouse <br /> behind the
+            interactive magic of the internet &#8221;
           </p>
+
           <a
             href="https://github.com/VIPIN24BOHRA"
             target="_blank"

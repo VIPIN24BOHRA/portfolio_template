@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <nav className="px-40 fixed w-full text-white flex justify-end h-[50px] items-end backdrop-blur-sm">
+    <nav className="pl-4 pr-40 z-40 fixed w-full text-white flex justify-end h-[50px] items-end backdrop-blur-sm">
       <img
         src="./assets/my_signature.png"
         alt="signature"
