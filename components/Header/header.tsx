@@ -12,9 +12,13 @@ export default function Header() {
 
       <ul className="flex flex-row">
         <li className="mx-4 cursor-pointer">Home</li>
-        {/* <li className="mx-4 cursor-pointer">About</li>
-        <li className="mx-4 cursor-pointer">Education</li>
-        <li className="mx-4 cursor-pointer">Experience</li>
+        <li className="mx-4 cursor-pointer">
+          <a href="#aboutMe">About</a>
+        </li>
+        <li className="mx-4 cursor-pointer">
+          <a href="#education">Education</a>
+        </li>
+        {/* <li className="mx-4 cursor-pointer">Experience</li>
         <li className="mx-4 cursor-pointer">Projects</li>
         <li className="mx-4 cursor-pointer">Contact Me</li> */}
       </ul>
