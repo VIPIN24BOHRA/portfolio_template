@@ -31,7 +31,7 @@ export default function About() {
           </span>
           <span>
             Hello there!{" "}
-            <b className="text-white font-bold">I'm Vipin Bohra,</b> a{" "}
+            <b className="text-white font-bold">I&apos;m Vipin Bohra,</b> a{" "}
             <b className="text-white font-bold">passionate individual</b>{" "}
             dedicated to creating end-to-end products that{" "}
             <b className="text-white font-bold">
