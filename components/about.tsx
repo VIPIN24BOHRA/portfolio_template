@@ -3,7 +3,7 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 export default function About() {
   return (
     <div className="text-white min-h-screen px-40 flex">
-      <div className="overflow-hidden max-h-screen sticky top-0 basis-1/3 rounded-lg">
+      <div className="overflow-hidden max-h-screen sticky top-10 basis-1/3 rounded-lg">
         <img
           alt="my_ai_img"
           src="./assets/my_ai_img_2.jpg"
@@ -26,7 +26,7 @@ export default function About() {
               #DSA Lover
             </span>
           </p> */}
-          <p className="flex pt-8 text-[18px] tracking-wide font-thin text-[#ddd]">
+          <div className="flex pt-8 text-[18px] tracking-wide font-thin text-[#ddd]">
             <span className="-mt-[2px] mr-4">
               <ArrowForwardIosIcon fontSize="small" className="text-[#aaa]" />
             </span>
@@ -45,7 +45,7 @@ export default function About() {
                 aiming to make a positive impact.
               </p>
             </div>
-          </p>
+          </div>
           <ul className="pt-4 tracking-wide font-thin text-[#ccc] list-disc pl-20">
             <li>
               I have a{" "}
@@ -74,7 +74,7 @@ export default function About() {
               to expand my expertise and contribute effectively.
             </li>
           </ul>
-          <p className="flex pt-8 text-[18px] tracking-wide font-thin text-[#ddd]">
+          <div className="flex pt-8 text-[18px] tracking-wide font-thin text-[#ddd]">
             <span className="-mt-[2px] mr-4">
               <ArrowForwardIosIcon fontSize="small" className="text-[#aaa]" />
             </span>
@@ -108,7 +108,7 @@ export default function About() {
                 </b>
               </p>
             </div>
-          </p>
+          </div>
           <a
             href=""
             className="ml-8 group  inline-block cursor-pointer mt-8 bg-[#ff0000] px-4 py-2 rounded-lg text-sm opacity-95 hover:opacity-100"

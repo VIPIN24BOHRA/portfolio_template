@@ -18,8 +18,11 @@ export default function Header() {
         <li className="mx-4 cursor-pointer">
           <a href="#education">Education</a>
         </li>
-        {/* <li className="mx-4 cursor-pointer">Experience</li>
-        <li className="mx-4 cursor-pointer">Projects</li>
+        <li className="mx-4 cursor-pointer">
+          {" "}
+          <a href="#skills">Skills</a>
+        </li>
+        {/* <li className="mx-4 cursor-pointer">Projects</li>
         <li className="mx-4 cursor-pointer">Contact Me</li> */}
       </ul>
     </nav>
