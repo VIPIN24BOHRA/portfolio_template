@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function CodeWrapper() {
   return (
     <pre className="text-white w-[650px] border-2 border-[#333] pt-2 text-[16px] font-thin rounded-xl">
