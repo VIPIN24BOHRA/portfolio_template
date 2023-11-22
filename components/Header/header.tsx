@@ -1,11 +1,11 @@
 export default function Header() {
   return (
-    <nav className="pl-4 pr-40 z-40 fixed w-full text-white flex justify-end h-[50px] items-end backdrop-blur-sm">
+    <nav className="pl-4 sm:pr-40 z-40 fixed w-full text-white flex justify-end h-[40px] sm:h-[50px] items-end backdrop-blur-sm">
       <img
         src="./assets/my_signature.png"
         alt="signature"
         width={160}
-        className="self-start rotate-6 mt-4"
+        className="w-[75px] sm:w-[160px] self-start rotate-6 mt-4"
       />
 
       <div className="grow"></div>
