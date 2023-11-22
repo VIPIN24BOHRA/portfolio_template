@@ -24,7 +24,7 @@ export default function HeroSection() {
 
         <div className="ml-4 mt-8">
           <AnimationEffect delay={1.5} duration={1} y={50}>
-            <div className="text-3xl sm:text-4xl font-semibold mb-4">
+            <div className="text-3xl text-center sm:text-start sm:text-4xl font-semibold mb-4">
               <TypewriterComponent
                 options={{
                   strings: [
@@ -45,7 +45,7 @@ export default function HeroSection() {
             </div>
           </AnimationEffect>
           <AnimationEffect delay={2} duration={1} y={50}>
-            <p className="py-4 text-lg sm:text-xl font-extrabold bg-gradient-to-r from-[#FCF6BA] via-[#BF953F] to-[#AA771C] text-transparent bg-clip-text">
+            <p className="py-4 text-md sm:text-xl font-extrabold bg-gradient-to-r from-[#FCF6BA] via-[#BF953F] to-[#AA771C] text-transparent bg-clip-text">
               &#8220; JavaScript is the silent powerhouse <br /> behind the
               interactive magic of the internet &#8221;
             </p>
@@ -64,7 +64,7 @@ export default function HeroSection() {
           </AnimationEffect>
         </div>
       </div>
-      <div className="scale-[0.82] sm:scale-[1] mt-16 ml-8 sm:mt-0 sm:ml-0 order-1 sm:order-2 w-[400px] relative">
+      <div className="scale-[0.78] sm:scale-[1] mt-16 ml-8 sm:mt-0 sm:ml-0 order-1 sm:order-2 w-[400px] relative">
         <ImageAnimationEffect delay={0.1}>
           <div className="flex items-center relative bg-white w-[300px] h-[300px] rounded-[100%] overflow-hidden">
             <img

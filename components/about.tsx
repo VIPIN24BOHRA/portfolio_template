@@ -11,7 +11,7 @@ export default function About() {
           className="h-full object-cover"
         />
         <p className="text-center mt-2 text-[#aaa]">
-          This is What AI think about me 🚀!.{" "}
+          This is what AI thinks about me 🚀!{" "}
         </p>
       </div>
 
