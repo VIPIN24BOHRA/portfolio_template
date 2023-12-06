@@ -113,7 +113,8 @@ export default function About() {
           </AnimationEffect>
           <AnimationEffect delay={0.3} duration={1} y={25}>
             <a
-              href=""
+              href="https://drive.google.com/file/d/1upmqH5l2Jg7PYsOo8hjllyQp73UNTa9R/view?usp=drive_link"
+              target="_blank"
               className="ml-8 group  inline-block cursor-pointer mt-8 bg-[#ff0000] px-4 py-2 rounded-lg text-sm opacity-95 hover:opacity-100"
             >
               Resume{" "}

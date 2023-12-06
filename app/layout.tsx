@@ -5,7 +5,7 @@ import Head from "next/head";
 import Footer from "@/components/Footer/footer";
 
 export const metadata: Metadata = {
-  title: "Vipin's Portfolio",
+  title: "Vipin Bohra | Vipin's Portfolio",
   description: "Vipin Bohra's Dev Portfolio",
 };
 
